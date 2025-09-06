@@ -1,0 +1,9 @@
+Django>=4.2,<5.0
+djangorestframework>=3.14
+django-cors-headers>=4.3.1
+
+# MySQL support (choose one of these, mysqlclient is faster, PyMySQL is pure-Python)
+mysqlclient>=2.2.0
+# OR
+# PyMySQL>=1.1.0
+djangorestframework-simplejwt
