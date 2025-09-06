@@ -58,7 +58,7 @@ A full-stack project using **Django REST Framework (backend)** and **React + Boo
 - JWT Authentication
 - Reports: attendance %, feedback averages, top students
 
-## 🛠️ Setup Instructions
+## 🛠️ Backend Setup Instructions
 
 ### Backend (Django)
 ```bash
@@ -68,9 +68,11 @@ pip install -r requirements.txt
 python manage.py migrate
 python manage.py runserver
 
-### Frontend (React)
-```bash
+### Frontend Setup Instruction
+
 cd frontend
-npm instal
+npm install
 npm start
+
+
 
