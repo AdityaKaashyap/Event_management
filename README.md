@@ -2,10 +2,10 @@
 
 A full-stack project using **Django REST Framework (backend)** and **React + Bootstrap (frontend)**.
 # About Django
--Django is a python language based backend web framework where it has many things inbuilt which a backend framework need.
--It has an admin panel from where you can have the control over the things inside.
--Django ORM also known as Object Representation Mapping handles database interaction using Pytjon classes like rawSql.
--In django we primarily work on different files they are views,serializers,urls,models etc.
+- Django is a python language based backend web framework where it has many things inbuilt which a backend framework need.
+- It has an admin panel from where you can have the control over the things inside.
+- Django ORM also known as Object Representation Mapping handles database interaction using Pytjon classes like rawSql.
+- In django we primarily work on different files they are views,serializers,urls,models etc.
 # Core Files
 - Serializers: are used to mainly serialize the data that we are getting from the frontend so it would be easy for the python to understand it.
 - Models: is the file where we actually create the schema same as in that of a database which is the most important as it teaches what should be the type of the data we need to be getting from the frontend.
