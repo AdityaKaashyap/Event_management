@@ -39,7 +39,16 @@ A full-stack project using **Django REST Framework (backend)** and **React + Boo
 - The student model contains the details of the student.
 - The exceptions will be raised if the credentials are not met in accordance to the model.
 
-
+# Frontend
+- React a Javascript Frontend Framework.
+- It is a single page application widely used.
+- It provides us with all the necessary inbuilt modules like axios react-router-dom.
+- DOM is a tree representation of a web page.
+- React mainly uses virtual DOM which is in memory and is fast.
+- I have created different functionalities like fetching event-list from backend,helping students to register,login to give attendance and feedback,
+- I have specified an axios which is a promise based HTTP client for making request from React(frontend) to django(backend).
+- I have specified a navbar with togle functionality.
+- There is a react-router-dom used which is used to specify the Routes to different components.
 
 ## 🚀 Features
 - Student Registration & Login
