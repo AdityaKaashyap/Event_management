@@ -50,6 +50,13 @@ A full-stack project using **Django REST Framework (backend)** and **React + Boo
 - I have specified a navbar with togle functionality.
 - There is a react-router-dom used which is used to specify the Routes to different components.
 
+  # Bootstrap
+- Bootstrap is a CSS styling framework used in this techstack.
+- This is simple framework.
+- It is used through CDN.
+- It is used to give styling to the pages and navbar toggling and manymore.
+- This reduces developer time in giving styles to the pages by giving custom styles and quicker than traditional styling.
+
 ## 🚀 Features
 - Student Registration & Login
 - Event Registration
