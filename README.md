@@ -1,7 +1,7 @@
 # Event Management System 🎓
 
 A full-stack project using **Django REST Framework (backend)** and **React + Bootstrap (frontend)**.
-In this project I have used Django-React tech stack where Django REST framework is used.
+# About Django
 -Django is a python language based backend web framework where it has many things inbuilt which a backend framework need.
 -It has an admin panel from where you can have the control over the things inside.
 -Django ORM also known as Object Representation Mapping handles database interaction using Pytjon classes like rawSql.
@@ -11,7 +11,7 @@ In this project I have used Django-React tech stack where Django REST framework 
 - Models: is the file where we actually create the schema same as in that of a database which is the most important as it teaches what should be the type of the data we need to be getting from the frontend.
 - Views: is used to create the viewset on each aspect whcih has to be rendered in the frontend.
 - Urls: is where we establish the names for the urls for the frontend to be easy to communicate with the backend.
-  # Django Rest Framework Features:
+# Django Rest Framework Features:
 -Django rest framework is a library inside python whcih has many subclasses whcih are useful.
 -It has got permission classes which specifies who can access what just like a middleware.
 -It has got all the kind of Token Viewset which primarily is used when login and logout is handled.
