@@ -63,6 +63,14 @@ A full-stack project using **Django REST Framework (backend)** and **React + Boo
 ### Backend (Django)
 ```bash
 cd backend
+activate virtual environment (env\scripts\activate)
 pip install -r requirements.txt
 python manage.py migrate
 python manage.py runserver
+
+### Frontend (React)
+```bash
+cd frontend
+npm instal
+npm start
+
