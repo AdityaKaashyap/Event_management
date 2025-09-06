@@ -6,6 +6,50 @@ A full-stack project using **Django REST Framework (backend)** and **React + Boo
 - `/backend` → Django + DRF + MySQL
 - `/frontend` → React + Axios + Bootstrap
 
+# About Django:
+- Django is a python language based backend web framework where it has many things inbuilt which a backend framework need.
+- It has an admin panel from where you can have the control over the things inside.
+- Django ORM also known as Object Representation Mapping handles database interaction using Python classes like rawSql.
+- In django we primarily work on different files they are views,serializers,urls,models etc.
+# Core Files:
+- Serializers: are used to mainly serialize the data that we are getting from the frontend so it would be easy for the python to understand it.
+- Models: is the file where we actually create the schema same as in that of a database which is the most important as it teaches what should be the type of the data we need to be getting from the frontend.
+- Views: is used to create the viewset on each aspect whcih has to be rendered in the frontend.
+- Urls: is where we establish the names for the urls for the frontend to be easy to communicate with the backend.
+# Django Rest Framework Features:
+- Django rest framework is a library inside python whcih has many subclasses whcih are useful.
+- It has got permission classes which specifies who can access what just like a middleware.
+- It has got all the kind of Token Viewset which primarily is used when login and logout is handled.
+- This is mainly responsible for the communication between frontend and backend.
+# About Corsheaders Middlewares and Security:
+- Next we have used corsheaders library.
+- Particularly talking of django it is designed only for the backend functionalities.
+- But request has to be made from frontend and this library allows the cross origin requests when specified from different urls of fronend.
+- Here in this project since we have used React framework only the localhost:3000 that is the frontend url is where we take the request from.
+- Since the frontend (React) runs on localhost:3000 and the backend on another port (e.g., localhost:8000), CORS headers are enabled to allow cross-origin requests safely.
+- It also restrict access to specify users based on user roles.
+- This framework is most effective in many conditions as it would give you most of the functionalities inbuilt.
+
+# Database:
+- I have used MySQL database which stores data in a structured format.
+- Here we have mostly used structured data only.
+- We have created a database for the student and the event hosted by the admin which are main.
+- The attendance and Feedback part stores the feedback and the number of students attended.
+- I have also defined the different kind of events where the admin can choose to host.
+- The student model contains the details of the student.
+- The exceptions will be raised if the credentials are not met in accordance to the model.
+
+# Frontend
+- React a Javascript Frontend Framework.
+- It is a single page application widely used.
+- It provides us with all the necessary inbuilt modules like axios react-router-dom.
+- DOM is a tree representation of a web page.
+- React mainly uses virtual DOM which is in memory and is fast.
+- I have created different functionalities like fetching event-list from backend,helping students to register,login to give attendance and feedback.
+- I have specified an axios which is a promise based HTTP client for making request from React(frontend) to django(backend).
+- I have specified a navbar with togle functionality.
+- There is a react-router-dom used which is used to specify the Routes to different components.
+
 ## 🚀 Features
 - Student Registration & Login
 - Event Registration
