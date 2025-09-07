@@ -17,7 +17,7 @@ A full-stack project using **Django REST Framework (backend)** and **React + Boo
 - Views: is used to create the viewset on each aspect whcih has to be rendered in the frontend.
 - Urls: is where we establish the names for the urls for the frontend to be easy to communicate with the backend.
 # Django Rest Framework Features:
-- Django rest framework is a library inside python whcih has many subclasses whcih are useful.
+- Django rest framework is a library inside python whcih has many subclasses which are useful.
 - It has got permission classes which specifies who can access what just like a middleware.
 - It has got all the kind of Token Viewset which primarily is used when login and logout is handled.
 - This is mainly responsible for the communication between frontend and backend.
