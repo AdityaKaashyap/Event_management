@@ -2,6 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 
 export default function Navbar() {
+   const isLoggedIn = !!localStorage.getItem("access");
   return (
     <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
       <div className="container-fluid">
@@ -26,9 +27,15 @@ export default function Navbar() {
             <li className="nav-item">
               <Link className="nav-link" to="/feedback">Feedback</Link>
             </li>
-            <li className="nav-item">
-              <Link className="nav-link" to="/login">Login</Link>
-            </li>
+            {isLoggedIn ? (
+              <li className="nav-item">
+                <Link className="nav-link" to="/logout">Logout</Link>
+              </li>
+            ) : (
+              <li className="nav-item">
+                <Link className="nav-link" to="/login">Login</Link>
+              </li>
+            )}
           </ul>
         </div>
       </div>

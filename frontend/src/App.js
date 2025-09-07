@@ -5,6 +5,7 @@ import EventList from "./components/EventList";
 import RegisterForm from "./components/RegisterForm";
 import FeedbackForm from "./components/FeedbackForm";
 import Login from "./components/Login";
+import Logout from "./components/Logout";
 
 
 function PrivateRoute({ children }) {
@@ -25,6 +26,7 @@ function App() {
             element={<FeedbackForm />}
           />
           <Route path="/login" element={<Login />} />
+          <Route path="/logout" element={<Logout />} />
         </Routes>
       </div>
     </BrowserRouter>
